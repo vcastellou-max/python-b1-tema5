@@ -96,11 +96,7 @@ Exemple:
 
 # Write class DatabaseConnector here
 class DatabaseConnector:
-
-    def __init__(self):
-        self.database = None
-    def connect(self):
-        self.databsae = database
+    def connect(self, database):
         database.connected = True
     
 # Write class SQLDatabase here
